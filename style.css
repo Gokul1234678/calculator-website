@@ -1,0 +1,150 @@
+body{
+  background-color:  #000000;
+  /* background-image: url("3.jpg"); */
+  background-image: url("3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.main{
+    border:2px solid black;
+    width:420px;
+    height:550px;
+    font-weight:bold;
+    margin: 40px;
+    border-radius: 20px; 
+    box-shadow: 0 0 30px 5px rgb(253, 253, 253);
+    
+   /* box-shadow: 5px 5px 5px 0px */
+    }
+    #display{
+        position: relative;
+        top:65px;
+        width:350px;
+        height:50px;
+        border-radius: 10px; 
+        box-shadow: 0 0 10px 3px rgb(3, 244, 144);
+        font-size: 30px;
+    }
+    .buttonbox{
+        padding-top: 90px;
+    }
+    .buttons{
+        font-size: 30px;
+       padding: 5px;
+        width:60px;
+        height:60px;
+        border-radius: 50px; 
+        row-gap: 10px;
+        margin:0px 7px 0px 7px;
+        /* background-color: hsl(186 100% 69%); */
+        background-color: white;
+        border:0px;
+       
+    }
+    .buttons:hover{
+        cursor: pointer;
+        transform: translateY(5px);
+        box-shadow: 0px 10px 30px 5px rgb(255, 255, 255);
+       background-color: rgb(255, 255, 255);
+    }
+    .eq{
+        border-radius: 10px;
+        background-color: rgb(22, 255, 1);
+        color: rgb(0, 0, 0);
+    }
+
+    .ac,.del{
+        background-color: red;
+        color: rgb(255, 255, 255);
+    }
+    .ac:hover{
+        cursor: pointer;
+        transform: translateY(5px);
+        box-shadow: 0px 10px 30px 5px rgb(255, 4, 4);
+       background-color: rgb(255, 0, 0);
+    }
+    .signs{
+        background-color: rgb(255, 174, 0);
+        color: rgb(0, 0, 0)
+
+    }
+    
+
+
+
+  
+    
+    @media (max-width: 600px) {
+        body{
+            background-color:  #000000;
+            
+            background-image: url("2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+          }
+      .main {
+        width: 90%;
+        max-width: 420px;
+        margin: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        /* background-color: rgba(255, 255, 255, 0.9); */
+    } 
+
+    #display{
+        position: relative;
+        top:65px;
+        width:80%;
+        height:50px;
+        border-radius: 10px; 
+        box-shadow: 0 0 10px 3px rgb(3, 244, 144);
+        font-size: 30px;
+    }
+     .buttons {
+            font-size: 1.2em;
+            width:40px;
+        height:40px;
+            padding: 10px;
+        }
+        #display {
+            font-size: 24px;
+            height: 40px;
+        }
+        .main{
+            height: 90%;
+        }
+    }
+    
+
+
+    @media (max-width: 400px) {
+      
+
+        #display{
+            position: relative;
+            top:65px;
+            width:89%;
+        }
+        /* .buttonbox{
+            width: 90%;
+        } */
+        .buttons {
+            font-size: 0.5em;
+            width:30px;
+            height:30px;
+            
+            padding: 10px;
+            margin: auto;
+            
+        }
+        .main{
+            height: 90%;
+        }
+        /* #display {
+            font-size: 20px;
+            height: 35px;
+        } */
+    }
+    
